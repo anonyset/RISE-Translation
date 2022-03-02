@@ -1,10 +1,107 @@
 <?php
 
 /* .کپی کنید  و آنجا به روز رسانی کنید (custom_lang.php) توجه: این فایل را تغییر ندهید. اگر می خواهید زبان را به روز کنید این فایل را در */
-
+/* یاد داشت ویرایش کننده : من حسین هستم ، دسترسی به فایل رایگان حق همه هست  */
 /* زبان محلی */ 
 $lang["language_locale"] = "fa"; //کد محلی
 $lang["language_locale_long"] = "fa-IR"; //کد محلی طولانی
+
+/* Hosein Momeni Api Plugin Translate Start */
+
+$lang["api"] = "Api";
+$lang["rest_api_main_menu"] = "API";
+$lang["api_user"] = "نام کاربری";
+$lang["api_name"] = "نام";
+$lang["token"] = "ژتون";
+$lang['new_user'] = "کاربر جدید";
+$lang['enter_username'] = "نام کاربری را وارد کنید";
+$lang['enter_useremail'] = "ایمیل کاربر را وارد کنید";
+$lang['expiration_date'] = "تاریخ انقضا";
+$lang["api"] = "مدیریت API";
+$lang["company_name_is_required"] = "نام شرکت مورد نیاز است";
+$lang['valid_company_name'] = "نام شرکت باید فقط دارای حروف الفبا باشد";
+$lang['valid_phone'] = "تلفن فقط باید دارای مقدار عددی باشد";
+$lang['valid_website'] = "وب سایت باید دارای آدرس اینترنتی معتبر باشد";
+$lang['owner_is_required'] = "شناسه مالک مورد نیاز است";
+$lang['valid_owner_id'] = "شناسه مالک فقط باید دارای مقدار عددی باشد";
+$lang['owner_id_invalid'] = "شناسه مالک نامعتبر";
+$lang['lead_status_is_required'] = "وضعیت سرنخ مورد نیاز است";
+$lang['valid_lead_status_id'] = "شناسه وضعیت سرنخ باید فقط حاوی مقدار عددی باشد";
+$lang['lead_source_is_required'] = "منبع اصلی مورد نیاز است";
+$lang['valid_lead_source_id'] = "شناسه منبع اصلی فقط باید دارای مقدار عددی باشد";
+$lang['lead_status_id_invalid'] = "شناسه وضعیت سرنخ نامعتبر";
+$lang['lead_source_id_invalid'] = "شناسه منبع سرنخ نامعتبر";
+$lang['project_title_required'] = "عنوان پروژه مورد نیاز است";
+$lang['client_id_required'] = "شناسه مشتری مورد نیاز است";
+$lang['client_id_invalid'] = "شناسه مشتری نامعتبر";
+$lang['start_data_invalid'] = "تاریخ شروع باید دارای تاریخ معتبر باشد";
+$lang['deadline_invalid'] = "مهلت باید دارای تاریخ معتبر باشد";
+$lang['price_is_invalid'] = "قیمت باید دارای یک مقدار معتبر باشد";
+$lang['label_is_invalid'] = "شناسه برچسب نامعتبر";
+$lang['no_data_were_found'] = "هیچ داده ای یافت نشد";
+$lang['client_added_success'] = "افزودن مشتری با موفقیت انجام شد.";
+$lang['client_added_fail'] = "مشتری اضافه نشد.";
+$lang['client_delete_success'] = "کلینت با موفقیت حذف شد.";
+$lang['client_delete_fail'] = "حذف مشتری انجام نشد.";
+$lang['project_add_success'] = "پروژه با موفقیت اضافه شد.";
+$lang['project_add_fail'] = "افزودن پروژه با شکست مواجه شد.";
+$lang['invalid_project_id'] = "شناسه پروژه نامعتبر";
+$lang['project_delete_success'] = "پروژه با موفقیت حذف شد.";
+$lang['project_delete_fail'] = "پروژه حذف نشد.";
+$lang['lead_add_success'] = "افزودن سرنخ موفقیت آمیز.";
+$lang['lead_add_fail'] = "سرنخ اضافه نشد.";
+$lang['lead_delete_success'] = "سرنخ با موفقیت حذف شد.";
+$lang['lead_delete_fail'] = "حذف سرنخ با شکست مواجه شد.";
+$lang['invalid_lead_id'] = "شناسه سرنخ نامعتبر";
+$lang['client_update_success'] = "به روز رسانی مشتری با موفقیت انجام شد.";
+$lang['client_update_fail'] = "به روز رسانی مشتری ناموفق است.";
+$lang['lead_update_success'] = "به روز رسانی با موفقیت انجام شد.";
+$lang['lead_update_fail'] = "به روز رسانی سرنخ با شکست مواجه شد.";
+$lang['project_update_success'] = "به روز رسانی پروژه با موفقیت انجام شد.";
+$lang['project_update_fail'] = "به روز رسانی پروژه با شکست مواجه شد.";
+$lang['invalid_group_id'] = "شناسه گروه مشتری نامعتبر.";
+$lang['ticket_delete_success'] = "بلیت با موفقیت حذف شد.";
+$lang['ticket_delete_fail'] = "بلیت حذف نشد.";
+$lang['ticket_title_required'] = "عنوان بلیط الزامی است";
+$lang['requested_by_id_required'] = "درخواست توسط شناسه فیلد الزامی است";
+$lang['requested_by_id_invalid'] = "درخواست نامعتبر توسط شناسه";
+$lang['description_is_required'] = "توضیحات لازم است";
+$lang['assigned_to_required'] = "تخصیص به آن الزامی است";
+$lang['invalid_assigned_to'] = "تخصیص نامعتبر به";
+$lang['ticket_type_required'] = "نوع بلیط مورد نیاز است";
+$lang['ticket_type_invalid'] = "نوع بلیط نامعتبر";
+$lang['ticket_add_success'] = "افزودن بلیت با موفقیت انجام شد.";
+$lang['ticket_add_fail'] = "بلیت اضافه نشد.";
+$lang['invoice_id_invalid'] = "شناسه فاکتور نامعتبر";
+$lang['invoice_delete_success'] = "حذف فاکتور با موفقیت انجام شد.";
+$lang['invoice_delete_fail'] = "حذف فاکتور انجام نشد.";
+$lang['ticket_id_invalid'] = "شناسه بلیط نامعتبر";
+$lang['ticket_update_success'] = "به روز رسانی بلیط با موفقیت انجام شد.";
+$lang['ticket_update_fail'] = "به‌روزرسانی بلیت انجام نشد.";
+$lang['invoice_date_required'] = "تاریخ فاکتور الزامی است";
+$lang['invoice_date_invalid'] = "تاریخ فاکتور نامعتبر باید با فرمت Y-m-d باشد";
+$lang['invoice_due_date_required']= "تاریخ سررسید فاکتور الزامی است";
+$lang['invoice_due_date_invalid'] = "تاریخ سررسید صورتحساب نامعتبر باید به Y-m-d قالب بندی شود";
+$lang['invalid_tax_id'] = "شناسه مالیاتی نامعتبر";
+$lang['invalid_tax2_id'] = "شناسه مالیات 2 نامعتبر";
+$lang['allowed_recurring_values'] = "فقط 0 و 1 در تکرار مجاز است";
+$lang['repeat_every_required'] = "تکرار هر مورد لازم است";
+$lang['invalid_repeat_every'] = "هر بار تکرار نامعتبر است";
+$lang['greater_than_repeat_every']= "تکرار هر باید بزرگتر از 0 باشد";
+$lang['repeat_type_required'] = "نوع تکرار مورد نیاز است";
+$lang['repeat_type_allowed'] = "نوع تکرار فقط روزها، هفته ها، ماه ها، سال ها را مجاز می کند";
+$lang['no_of_cycles_required'] = "بدون چرخه مورد نیاز است";
+$lang['invalid_no_of_cycles'] = "شماره چرخه نامعتبر است";
+$lang['greater_than_no_of_cycles']= "تعداد چرخه نباید 0 باشد";
+$lang['invoice_add_success'] = "افزودن فاکتور با موفقیت انجام شد";
+$lang['invoice_add_fail'] = "افزودن فاکتور ناموفق";
+$lang['invoice_update_success'] = "به روز رسانی فاکتور با موفقیت انجام شد";
+$lang['invoice_update_fail'] = "به روز رسانی فاکتور انجام نشد";
+
+/* Hosein Momeni Api Plugin Translate Start */
+
+
+
 
 /* common */
 $lang["add"] = "افزودن";
@@ -47,7 +144,7 @@ $lang["date"] = "تاریخ";
 $lang["yes"] = "بله";
 $lang["no"] = "خیر";
 $lang["add_more"] = "افزودن بیشتر";
-$lang["crop"] = "Crop";
+$lang["crop"] = "بریدن";
 $lang["income"] = "درآمد";
 $lang["income_vs_expenses"] = "درآمد و هزینه";
 
@@ -220,6 +317,10 @@ $lang["event_deleted"] = "رویداد حذف شده است.";
 $lang["view_on_calendar"] = "نمایش در تقویم";
 $lang["no_event_found"] = "رویدادی یافت نشد!";
 $lang["events_today"] = "رویدادهای امروز";
+
+
+
+
 
 /* announcement */
 $lang["add_announcement"] = "افزودن اعلان";
@@ -432,7 +533,7 @@ $lang["my_open_tasks"] = "کارهای باز من";
 $lang["assign_to"] = "اختصاص به";
 $lang["assigned_to"] = "اختصاص یافته به";
 $lang["labels"] = "برچسب ها";
-$lang["to_do"] = "To do";
+$lang["to_do"] = "برای انجام";
 $lang["in_progress"] = "در حال انجام";
 $lang["done"] = "انجام شده";
 $lang["task_info"] = "اطلاعات کار";
@@ -449,8 +550,8 @@ $lang["post_comment"] = "ارسال";
 $lang["post_reply"] = "پاسخ پست";
 $lang["reply"] = "پاسخ";
 $lang["replies"] = "پاسخ ها";
-$lang["like"] = "Like";
-$lang["unlike"] = "Unlike";
+$lang["like"] = "پسندیدن";
+$lang["unlike"] = "نپسندیدن";
 $lang["view"] = "نمایش";
 $lang["project_comment"] = "کامنت پروژه";
 $lang["task_comment"] = "کامنت کار";
@@ -498,7 +599,7 @@ $lang["add_invoice"] = "افزودن فاکتور";
 $lang["edit_invoice"] = "ویرایش فاکتور";
 $lang["delete_invoice"] = "حذف فاکتور";
 $lang["invoice"] = "فاکتور";
-$lang["invoices"] = "فاکتورها";
+$lang["invoices"] = "صورت حساب ها";
 $lang["bill_date"] = "تاریخ صورتحساب";
 $lang["due_date"] = "موعد مقرر";
 $lang["payment_date"] = "تاریخ پرداخت";
@@ -604,9 +705,9 @@ $lang["pay_invoice"] = "پرداخت فاکتور";
 $lang["pay_button_text"] = "متن دکمه پرداخت";
 $lang["minimum_payment_validation_message"] = "مبلغ پرداخت نمی تواند کمتر از این باشد:"; //ex. The payment amount can't be less then: USD 100.00
 $lang["invoice_settings"] = "تنظیمات پرداخت";
-$lang["allow_partial_invoice_payment_from_clients"] = "اجازه پرداخت جزئی را به مشتری بدهید.";
+$lang["allow_partial_invoice_payment_from_clients"] = "اجازه پرداخت جزئی از طرف مشتریان را صادر کن";
 $lang["invoice_color"] = "رنگ فاکتور";
-$lang["invoice_footer"] = "Footer فاکتور";
+$lang["invoice_footer"] = "پابرک  فاکتور";
 $lang["invoice_preview"] = "پیشنمایش فاکتور";
 $lang["close_preview"] = "بستن پیشنمایش";
 $lang["only_me"] = "فقط من";
@@ -636,19 +737,19 @@ $lang["can_delete_files"] = "می تواند فایل ها را حذف کند؟"
 
 /* Version 1.2.2 */
 $lang["label"] = "برچسب";
-$lang["send_bcc_to"] = "هنگام ارسال فاکتور به مشتری، BCC را ارسال کنید به";
+$lang["send_bcc_to"] = "هنگام ارسال صورت حساب به مشتری رونوشتی را ارسال کن به";
 $lang["mark_project_as_completed"] = "علامت گذاری پروژه به عنوان تکمیل شده";
 $lang["mark_project_as_canceled"] = "علامت گذاری پروژه به عنوان لغو شده";
 $lang["mark_project_as_open"] = "علامت گذاری پروژه به عنوان باز";
 
 /* Version 1.3 */
-$lang["notification"] = "Notification";
-$lang["notifications"] = "Notifications";
-$lang["notification_settings"] = "تنظیمات Notification";
+$lang["notification"] = "اعلان";
+$lang["notifications"] = "اعلان ها";
+$lang["notification_settings"] = "تنظیمات اطلاع رسانی";
 $lang["enable_email"] = "فعال کردن ایمیل";
 $lang["enable_web"] = "فعال کردن وب";
 $lang["event"] = "رویداد";
-$lang["notify_to"] = "Notify to";
+$lang["notify_to"] = "اطلاع به";
 
 $lang["project_created"] = "پروژه ایجاد شد";
 $lang["project_deleted"] = "پروژه حذف شد";
@@ -671,7 +772,7 @@ $lang["project_customer_feedback_added"] = "بازخورد مشتری پروژه
 $lang["project_customer_feedback_replied"] = "بازخورد مشتری پروژه پاسخ داده شد";
 $lang["client_signup"] = "ثبت نام مشتری";
 $lang["invoice_online_payment_received"] = "صورتحساب پرداخت آنلاین دریافت شد";
-$lang["leave_application_submitted"] = "Leave application submitted";
+$lang["leave_application_submitted"] = "درخواست ارسال شده را ترک کنید";
 $lang["leave_approved"] = "مرخصی تایید شد";
 $lang["leave_assigned"] = "مرخصی اختصاص یافت";
 $lang["leave_rejected"] = "مرخصی رد شد";
@@ -755,13 +856,13 @@ $lang["mark_as_closed"] = "علامت گذاری به عنوان بسته";
 
 $lang["ticket_assignee"] = "اختصاص دادن تیکت";
 
-$lang["estimate"] = "تخمین";
-$lang["estimates"] = "تخمین ها";
-$lang["estimate_request"] = "درخواست تخمین";
-$lang["estimate_requests"] = "درخواستهای تخمین";
-$lang["estimate_list"] = "لیست تخمین";
-$lang["estimate_forms"] = "فرم های تخمین";
-$lang["estimate_request_forms"] = "فرم های درخواست تخمین";
+$lang["estimate"] = "پیش فاکتور";
+$lang["estimates"] = "پیش فاکتور ها";
+$lang["estimate_request"] = "درخواست پیش فاکتور";
+$lang["estimate_requests"] = "درخواستهای پیش فاکتور ";
+$lang["estimate_list"] = "لیست پیش فاکتور";
+$lang["estimate_forms"] = "فرم های پیش فاکتور";
+$lang["estimate_request_forms"] = "فرم های درخواست پیش فاکتور";
 
 $lang["add_form"] = "افزودن فرم";
 $lang["edit_form"] = "ویرایش فرم";
@@ -832,54 +933,55 @@ $lang["project_cloned_successfully"] = "پروژه با موفقیت همسان 
 
 $lang["search"] = "جستجو";
 $lang["no_record_found"] = "چیزی یافت نشد";
-$lang["excel"] = "Excel";
+$lang["excel"] = "اکسل";
 $lang["print_button_help_text"] = "هنگامی که کارتان تمام شد، دکمه Esc را بزنید";
 $lang["are_you_sure"] = "مطمئن هستید؟";
 $lang["file_upload_instruction"] = "فایل ها را به اینجا بکشید";
 $lang["file_name_too_long"] = "نام فایل طولانی است";
 $lang["scrollbar"] = "اسکرول بار";
 
-$lang["short_sunday"] = "1 ش";
-$lang["short_monday"] = "2 ش";
-$lang["short_tuesday"] = "3 ش";
-$lang["short_wednesday"] = "4 ش";
-$lang["short_thursday"] = "5 ش";
+$lang["short_sunday"] = "یک شنبه";
+$lang["short_monday"] = "دو شنبه";
+$lang["short_tuesday"] = "سه شنبه";
+$lang["short_wednesday"] = "چهار شنبه";
+$lang["short_thursday"] = "پنج شنبه";
 $lang["short_friday"] = "جمعه";
 $lang["short_saturday"] = "شنبه";
 
-$lang["min_sunday"] = "1 ش";
-$lang["min_monday"] = "2 ش";
-$lang["min_tuesday"] = "3 ش";
-$lang["min_wednesday"] = "4 ش";;
-$lang["min_thursday"] = "5 ش";
+$lang["min_sunday"] = "یک شنبه";
+$lang["min_monday"] = "دو شنبه";
+$lang["min_tuesday"] = "سه شنبه";
+$lang["min_wednesday"] = "چهار شنبه";;
+$lang["min_thursday"] = "پنج شنبه";
 $lang["min_friday"] = "جمعه";
 $lang["min_saturday"] = "شنبه";
 
-$lang["january"] = "January";
-$lang["february"] = "February";
-$lang["march"] = "March";
-$lang["april"] = "April";
-$lang["may"] = "May";
-$lang["june"] = "June";
-$lang["july"] = "July";
-$lang["august"] = "August";
-$lang["september"] = "September";
-$lang["october"] = "October";
-$lang["november"] = "November";
-$lang["december"] = "December";
+$lang["january"] = "فروردین";
+$lang["february"] = "اردیبهشت";
+$lang["march"] = "خرداد";
+$lang["april"] = "تیر";
+$lang["may"] = "مرداد";
+$lang["june"] = "شهریور";
+$lang["july"] = "مهر";
+$lang["august"] = "آبان";
+$lang["september"] = "آذر";
+$lang["october"] = "دی";
+$lang["november"] = "بهمن";
+$lang["december"] = "اسفند";
 
-$lang["short_january"] = "Jan";
-$lang["short_february"] = "Feb";
-$lang["short_march"] = "Mar";
-$lang["short_april"] = "Apr";
-$lang["short_may"] = "May";
-$lang["short_june"] = "Jun";
-$lang["short_july"] = "Jul";
-$lang["short_august"] = "Aug";
-$lang["short_september"] = "Sep";
-$lang["short_october"] = "Oct";
-$lang["short_november"] = "Nov";
-$lang["short_december"] = "Dec";
+$lang["short_january"] = "فروردین";
+$lang["short_february"] = "اردیبهشت";
+$lang["short_march"] = "خرداد";
+$lang["short_april"] = "تیر";
+$lang["short_may"] = "مرداد";
+$lang["short_june"] = "شهریور";
+$lang["short_july"] = "مهر";
+$lang["short_august"] = "آبان";
+$lang["short_september"] = "آذر";
+$lang["short_october"] = "دی";
+$lang["short_november"] = "بهمن";
+$lang["short_december"] = "اسفند";
+
 
 /* Version 1.5 */
 
@@ -1028,8 +1130,8 @@ $lang["show_most_recent_ticket_comments_at_the_top"] = "کامنت های آخر
 $lang["new_event_added_in_calendar"] = "رویداد جدید به تقویم اضافه شد";
 $lang["notification_new_event_added_in_calendar"] = "یک رویداد جدید اضافه شد";
 
-$lang["todo"] = "To do";
-$lang["add_a_todo"] = "افزودن to do...";
+$lang["todo"] = "برای انجام دادن";
+$lang["add_a_todo"] = "اضافه کردن به لیست برای انجام ....";
 
 /* Version 1.9 */
 
@@ -1567,541 +1669,536 @@ $lang["delete_expenses_category"] = "دسته هزینه ها را حذف کنی
 /* Version 2.5 */
 
 $lang["code_reference"] = "کد مرجع";
+$lang["commit_url"] = "تعهد آدرس اینترنتی";
+$lang["new_commits"] = "تعهدات جدید";
+$lang["new_commit"] = "تعهد جدید";
+$lang["pushed_by"] = "تحت فشار داده شد";
+$lang["committed_by"] = "تعهد شده توسط";
+$lang["add_webhook_in_your_repository_at"] = "وب هوک را در مخزن خود اضافه کنید: ";
+$lang["webhook_listener_link"] = "پیوند شنونده وب هوک";
+$lang["enable_bitbucket_commit_logs_in_tasks"] = "فعال کردن گزارشهای commit bitbucket در وظایف";
+$lang["bitbucket_info_text"] = "برای پیوند دادن commit ها به وظایف، باید یک # و شناسه وظیفه در انتهای هر پیام commit وجود داشته باشد. مثال: این یک commit از Task #10 است.";
 
-$lang["commit_url"] = "Commit url";
-$lang["new_commits"] = "New commits";
-$lang["new_commit"] = "New commit";
-$lang["pushed_by"] = "Pushed by";
-$lang["committed_by"] = "Committed by";
-$lang["add_webhook_in_your_repository_at"] = "Add webhook in your repository: ";
-$lang["webhook_listener_link"] = "Webhook listener link";
-$lang["enable_bitbucket_commit_logs_in_tasks"] = "Enable bitbucket commit logs in tasks";
-$lang["bitbucket_info_text"] = "To link the commits with tasks, there should be a # and task ID at the end of each commit messages. Ex: This is a commit of Task #10.";
+$lang["bitbucket_push_received"] = "اعلان Bitbucket دریافت شد";
+$lang["notification_bitbucket_push_received"] = "اعلان Bitbucket دریافت شد.";
 
-$lang["bitbucket_push_received"] = "Bitbucket notification received";
-$lang["notification_bitbucket_push_received"] = "Bitbucket notification received.";
+$lang["hour_log_time_error_message"] = "لطفاً ساعت(ها) را با فرمت صحیح وارد کنید.";
+$lang["set_message_permissions"] = "تنظیم مجوزهای پیام";
+$lang["cant_send_any_messages"] = "نمی توان هیچ پیامی ارسال کرد";
+$lang["can_send_messages_to_specific_members_or_teams"] = "می تواند برای اعضا یا تیم های خاص پیام ارسال کند:";
 
-$lang["hour_log_time_error_message"] = "Please input hour(s) in correct format.";
-$lang["set_message_permissions"] = "Set message permissions";
-$lang["cant_send_any_messages"] = "Can't send any messages";
-$lang["can_send_messages_to_specific_members_or_teams"] = "Can send messages to specific members or teams:";
+$lang["embed"] = "جاسازی";
+$lang["copy"] = "کپی";
 
-$lang["embed"] = "Embed";
-$lang["copy"] = "Copy";
+$lang["estimate_prefix"] = "تخمین پیشوند";
 
-$lang["estimate_prefix"] = "Estimate prefix";
-
-$lang["likes"] = "Likes";
+$lang["likes"] = "پسندیدن";
 
 $lang["pusher"] = "Pusher";
-$lang["enable_chat_via_pusher"] = "Enable chat via pusher";
+$lang["enable_chat_via_pusher"] = "فعال کردن چت از طریق pusher";
 
-$lang["tasks_list"] = "Tasks List";
-$lang["tasks_kanban"] = "Tasks Kanban";
-$lang["set_project_tab_order"] = "Set project tab order";
-$lang["project_tab_order"] = "Project tab order";
-$lang["project_tab_order_help_message"] = "Please note that, this tabs will show as per user's permissions.";
-$lang["project_tab_order_help_message_of_client"] = "Please note that, this tabs will show as per client contact's permissions.";
-$lang["client_projects"] = "Projects";
+$lang["tasks_list"] = "فهرست وظایف";
+$lang["tasks_kanban"] = "وظایف کانبان";
+$lang["set_project_tab_order"] = "تنظیم ترتیب برگه پروژه";
+$lang["project_tab_order"] = "ترتیب برگه پروژه";
+$lang["project_tab_order_help_message"] = "لطفاً توجه داشته باشید که این برگه ها مطابق با مجوزهای کاربر نمایش داده می شوند.";
+$lang["project_tab_order_help_message_of_client"] = "لطفاً توجه داشته باشید که این برگه ها مطابق با مجوزهای مخاطب نمایش داده می شوند.";
+$lang["client_projects"] = "پروژه ها";
 
-$lang["ticket_assigned"] = "Ticket assigned";
-$lang["notification_ticket_assigned"] = "Assigned a ticket to %s";
+$lang["ticket_assigned"] = "بلیت اختصاص داده شده";
+$lang["notification_ticket_assigned"] = "یک بلیت به %s اختصاص داد";
 
-$lang["disable_access_favorite_project_option_for_clients"] = "Disable access favorite project option for clients";
-$lang["disable_editing_left_menu_by_clients"] = "Disable editing left menu by clients";
-$lang["disable_topbar_menu_customization"] = "Disable topbar menu customization";
-$lang["disable_dashboard_customization_by_clients"] = "Disable dashboard customization by clients";
+$lang["disable_access_favorite_project_option_for_clients"] = "دسترسی به گزینه پروژه دلخواه برای مشتریان را غیرفعال کنید";
+$lang["disable_editing_left_menu_by_clients"] = "غیرفعال کردن ویرایش منوی سمت چپ توسط مشتریان";
+$lang["disable_topbar_menu_customization"] = "غیرفعال کردن سفارشی سازی منوی بالای نوار";
+$lang["disable_dashboard_customization_by_clients"] = "غیرفعال کردن سفارشی سازی داشبورد توسط مشتریان";
 
-$lang["task_start_date"] = "Task start date";
-$lang["project_start_date"] = "Project start date";
-$lang["show_on_kanban_card"] = "Show on kanban card";
+$lang["task_start_date"] = "تاریخ شروع کار";
+$lang["project_start_date"] = "تاریخ شروع پروژه";
+$lang["show_on_kanban_card"] = "نمایش در کارت کانبان";
 
-$lang["original_expense"] = "Original expense";
-$lang["expense_details"] = "Expense details";
+$lang["original_expense"] = "هزینه اصلی";
+$lang["expense_details"] = "جزئیات هزینه";
 
-$lang["read_only"] = "Read only";
+$lang["read_only"] = "فقط خواندنی";
 
-$lang["internal_use_only"] = "Internal use only";
-$lang["visible_to_team_members_only"] = "Visible to team members only";
-$lang["visible_to_clients_only"] = "Visible to clients only";
+$lang["internal_use_only"] = "فقط استفاده داخلی";
+$lang["visible_to_team_members_only"] = "فقط برای اعضای تیم قابل مشاهده است";
+$lang["visible_to_clients_only"] = "فقط برای مشتریان قابل مشاهده است";
 
-$lang["open_in_new_tab"] = "Open in new tab";
+$lang["open_in_new_tab"] = "باز کردن در برگه جدید";
 
-$lang["client_can_delete_own_files_in_project"] = "Client can delete own files in project";
+$lang["client_can_delete_own_files_in_project"] = "کارفرما می تواند فایل های خود را در پروژه حذف کند";
 
-$lang["enable_slack"] = "Enable slack";
-$lang["get_the_webhook_url_of_your_app_from_here"] = "Get the Webhook URL of your App from here:";
-$lang["slack_webhook_url"] = "Webhook URL";
-$lang["send_a_test_message"] = "Send a test message";
-$lang["notification_test_slack_notification"] = "This is a demo message.";
-$lang["slack_notification_error_message"] = "Error! Can't connect with the Slack using the credentials.";
-$lang["dont_send_any_project_related_notifications_to_this_channel"] = "Don't send any project related notifications to this channel";
-$lang["save_and_send_a_test_message"] = "Save & send a test message";
+$lang["enable_slack"] = "فعال کردن slack";
+$lang["get_the_webhook_url_of_your_app_from_here"] = "نشانی وب هوک برنامه خود را از اینجا دریافت کنید:";
+$lang["slack_webhook_url"] = "نشانی وب هوک";
+$lang["send_a_test_message"] = "یک پیام آزمایشی ارسال کنید";
+$lang["notification_test_slack_notification"] = "این یک پیام نمایشی است.";
+$lang["slack_notification_error_message"] = "خطا! نمی توان با استفاده از اعتبارنامه با Slack ارتباط برقرار کرد.";
+$lang["dont_send_any_project_related_notifications_to_this_channel"] = "هیچ اعلان مربوط به پروژه به این کانال ارسال نشود";
+$lang["save_and_send_a_test_message"] = "ذخیره و ارسال یک پیام آزمایشی";
 
-$lang["copy_sub_tasks"] = "Copy sub tasks";
+$lang["copy_sub_tasks"] = "کپی وظایف فرعی";
 
-$lang["can_update_only_assigned_tasks_status"] = "Can update only assigned tasks status";
+$lang["can_update_only_assigned_tasks_status"] = "فقط می تواند وضعیت وظایف محول شده را به روز کند";
 
-$lang["import_leads"] = "Import leads";
-$lang["import_lead_error_contact_name"] = "Contact first name and last name is both required to add a lead contact.";
+$lang["import_leads"] = "وارد کردن سرنخ";
+$lang["import_lead_error_contact_name"] = "نام و نام خانوادگی هر دو برای افزودن یک مخاطب اصلی لازم است.";
 
-$lang["deadline_must_be_equal_or_greater_than_start_date"] = "Deadline must be equal or greater than Start date.";
+$lang["deadline_must_be_equal_or_greater_than_start_date"] = "مهلت باید برابر یا بیشتر از تاریخ شروع باشد.";
 
-$lang["enable_github_commit_logs_in_tasks"] = "Enable github commit logs in tasks";
-$lang["github_push_received"] = "GitHub notification received";
-$lang["notification_github_push_received"] = "GitHub notification received.";
+$lang["enable_github_commit_logs_in_tasks"] = "فعال کردن گزارش‌های commit github در وظایف";
+$lang["github_push_received"] = "اعلان GitHub دریافت شد";
+$lang["notification_github_push_received"] = "اعلان GitHub دریافت شد.";
 
-$lang["invalid_calendar_id_error_message"] = "This Calendar ID isn't valid or you don't have permission to access this Calendar";
-$lang["total_clients"] = "Total clients";
-$lang["total_contacts"] = "Total contacts";
+$lang["invalid_calendar_id_error_message"] = "این شناسه تقویم معتبر نیست یا شما اجازه دسترسی به این تقویم را ندارید";
+$lang["total_clients"] = "کل مشتریان";
+$lang["total_contacts"] = "مجموع مخاطبین";
 
-$lang["message_sending_error_message"] = "This user doesn't have permission to send message to you. That's why you also can't send message!";
+$lang["message_sending_error_message"] = "این کاربر اجازه ارسال پیام برای شما را ندارد. به همین دلیل شما نیز نمی توانید پیام ارسال کنید!";
 
-$lang["days_view"] = "Days view";
-$lang["weeks_view"] = "Weeks view";
-$lang["months_view"] = "Months view";
+$lang["days_view"] = "نمایش روز";
+$lang["weeks_view"] = "نمای هفته";
+$lang["months_view"] = "نمایش ماه";
 
-$lang["move_all_tasks_to_to_do"] = "Move all tasks to To Do";
+$lang["move_all_tasks_to_to_do"] = "انتقال همه کارها به To Do";
 
-$lang["started"] = "Started";
+$lang["started"] = "شروع شد";
 
-$lang["weekends"] = "Weekends";
+$lang["weekends"] = "آخر هفته";
 
-$lang["invited_client_contact_signed_up"] = "Invited client contact signed up";
-$lang["notification_invited_client_contact_signed_up"] = "Invited client contact signed up.";
+$lang["invited_client_contact_signed_up"] = "مخاطب مشتری دعوت شده ثبت نام کرد";
+$lang["notification_invited_client_contact_signed_up"] = "مخاطب مشتری دعوت شده ثبت نام کرد.";
 
-$lang["ticket_templates"] = "Ticket templates";
-$lang["ticket_template"] = "Ticket template";
-$lang["tickets_list"] = "Tickets list";
-$lang["add_template"] = "Add template";
-$lang["edit_template"] = "Edit template";
-$lang["insert_template"] = "Insert template";
-$lang["private_template"] = "Private template";
+$lang["ticket_templates"] = "الگوهای بلیط";
+$lang["ticket_template"] = "الگوی بلیط";
+$lang["tickets_list"] = "فهرست بلیط";
+$lang["add_template"] = "اضافه کردن الگو";
+$lang["edit_template"] = "ویرایش الگو";
+$lang["insert_template"] = "درج الگو";
+$lang["private_template"] = "الگوی خصوصی";
 
-$lang["requested_by"] = "Requested by";
+$lang["requested_by"] = "درخواست شده توسط";
 
-$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "Create new projects automatically when estimates gets accepted";
+$lang["create_new_projects_automatically_when_estimates_gets_accepted"] = "پروژه های جدید به صورت خودکار زمانی که برآوردها پذیرفته شد ایجاد کنید";
 
-$lang["typing"] = "Typing";
+$lang["typing"] = "تایپ کردن";
 
-$lang["new_client_greetings"] = "New client greetings";
+$lang["new_client_greetings"] = "تبریک مشتری جدید";
 
-$lang["timeline_post_commented"] = "Timeline post commented";
-$lang["post_creator"] = "Post creator";
-$lang["notification_timeline_post_commented"] = "Commented on a post.";
-$lang["created_a_new_post"] = "Created a new post";
-$lang["notification_created_a_new_post"] = "Created a new post.";
+$lang["timeline_post_commented"] = "پست تایم لاین نظر داده شد";
+$lang["post_creator"] = "خالق پست";
+$lang["notification_timeline_post_commented"] = "روی یک پست نظر داد.";
+$lang["created_a_new_post"] = "یک پست جدید ایجاد کرد";
+$lang["notification_created_a_new_post"] = "یک پست جدید ایجاد کرد.";
 
-$lang["verify_email_before_client_signup"] = "Verify email before client signup";
-$lang["input_your_email"] = "Input your email";
-$lang["verify_email"] = "Client email verification";
-$lang["please_continue_your_signup_process"] = "Please continue your signup process.";
-$lang["get_started"] = "Get Started";
+$lang["verify_email_before_client_signup"] = "تایید ایمیل قبل از ثبت نام مشتری";
+$lang["input_your_email"] = "ایمیل خود را وارد کنید";
+$lang["verify_email"] = "تأیید ایمیل مشتری";
+$lang["please_continue_your_signup_process"] = "لطفا مراحل ثبت نام خود را ادامه دهید.";
+$lang["get_started"] = "شروع";
 
-$lang["manage_labels"] = "Manage labels";
+$lang["manage_labels"] = "مدیریت برچسب ها";
 
 $lang["timesheet"] = "Timesheet";
-$lang["users_can_input_only_total_hours_instead_of_period"] = "Users can input only total hours instead of period";
-$lang["timesheet_hour_input_help_message"] = "Ex: 1h 20m";
-
-$lang["template"] = "Template";
-$lang["template_details"] = "Template details";
-
-$lang["label_existing_error_message"] = "This label already in use. It can't be deleted.";
-
-/* Version 2.6 */
-
-$lang["paytm_checksum_hash_error_message"] = "Couldn't generate Checksum Hash with your credentials.";
-
-$lang["testing_environment"] = "Testing environment";
-
-$lang["auto_reply_to_tickets"] = "Auto reply to tickets";
-
-$lang["total_time_logged"] = "Total time logged";
-$lang["total_duration"] = "Total duration";
-
-$lang["please_upload_valid_image_files"] = "Please upload valid image files.";
-$lang["upload_image"] = "Upload Image";
-$lang["item_details"] = "Item details";
-$lang["item_image_sorting_help_message"] = "First image will be the default image.";
-$lang["show_in_client_portal"] = "Show in client portal";
-$lang["showing_in_client_portal"] = "Showing in client portal";
-$lang["add_to_cart"] = "Add to cart";
-$lang["item_empty_message"] = "No items found!";
-
-$lang["order"] = "Order";
-$lang["orders"] = "Orders";
-$lang["no_items_text"] = "You don't have any items in your shopping cart!";
-$lang["process_order"] = "Process Order";
-$lang["place_order"] = "Place order";
-$lang["edit_item"] = "Edit item";
-$lang["store"] = "Store";
-$lang["client_can_access_store"] = "Client can access store?";
-$lang["added_to_cart"] = "Added to cart";
-$lang["can_access_orders"] = "Can access orders?";
-
-$lang["order_settings"] = "Order settings";
-$lang["order_logo"] = "Order logo";
-$lang["order_prefix"] = "Order prefix";
-$lang["order_color"] = "Order color";
-$lang["initial_number_of_the_order"] = "Initial number of the order";
-$lang["the_orders_id_must_be_larger_then_last_order_id"] = "The orders ID must be larger then last order ID.";
-$lang["order_footer"] = "Order footer";
-
-$lang["order_status"] = "Order status";
-$lang["edit_order_status"] = "Edit order status";
-$lang["add_order_status"] = "Add order status";
-$lang["delete_order_status"] = "Delete order status";
-$lang["there_has_orders_with_this_status"] = "There has orders with this status";
-$lang["orders_list"] = "Orders list";
-$lang["sales"] = "Sales";
-$lang["order_date"] = "Order date";
-$lang["edit_order"] = "Edit order";
-$lang["delete_order"] = "Delete order";
-$lang["show_in_order"] = "Show in order";
-$lang["order_preview"] = "Order preview";
-$lang["order_from"] = "Order from";
-$lang["add_order"] = "Add order";
-
-$lang["process_order_info_message"] = "You are about to create the order. Please check details before submitting.";
-
-$lang["order_creator_contact"] = "Order creator contact";
-
-$lang["create_estimate"] = "Create Estimate";
-$lang["include_all_items_of_this_order"] = "Include all items of this order";
-
-$lang["new_order_received"] = "New order received";
-$lang["notification_new_order_received"] = "New order received.";
-
-$lang["order_status_updated"] = "Order status updated";
-$lang["notification_order_status_updated"] = "Order status has been updated.";
-
-$lang["add_more_items"] = "Add more items";
-
-$lang["yes_only_own_leads"] = "Yes, only own leads";
-$lang["yes_all_leads"] = "Yes, all leads";
-
-$lang["yes_only_own_clients"] = "Yes, only own clients";
-$lang["yes_all_clients"] = "Yes, all clients";
-
-$lang["recently_updated"] = "Recently updated";
-$lang["recently_moved_to"] = "Recently moved to";
-
-$lang["recently_commented"] = "Recently commented";
-$lang["mentioned_me"] = "Mentioned me";
-$lang["recently_mentioned_me"] = "Recently mentioned me";
-$lang["in"] = "In";
-$lang["recently_meaning"] = "Recently meaning";
-
-$lang["quick_filters"] = "Quick filters";
-
-$lang["has_open_projects"] = "Has open projects";
-$lang["has_completed_projects"] = "Has completed projects";
-$lang["has_any_hold_projects"] = "Has any hold projects";
-
-$lang["has_unpaid_invoices"] = "Has unpaid invoices";
-$lang["has_overdue_invoices"] = "Has overdue invoices";
-$lang["has_partially_paid_invoices"] = "Has partially paid invoices";
-$lang["assignee"] = "Assignee";
-
-$lang["upload_and_crop"] = "Upload and crop";
-
-$lang["active_members_on_projects"] = "Active members on projects";
-
-/* Version 2.6.1 */
-
-$lang["open_tickets_list"] = "Open tickets list";
-
-$lang["login_attempt_failed"] = "Login attempt failed";
-$lang["profile_image_error_message"] = "The image should be 200x200px.";
-
-$lang["re_captcha_info_text"] = "Before you logout, please open a new browser and make sure the reCaptcha is working.";
-$lang["yes_assigned_tickets_only"] = "Yes, assigned tickets only";
-$lang["no_such_custom_field_found"] = "No such custom field found.";
-$lang["open_in_google_calendar"] = "Open in google calendar";
-
-$lang["enable_embedded_form_to_get_tickets"] = "Enable embedded form to get tickets";
-$lang["submit_your_request"] = "Submit your request";
-$lang["submit"] = "Submit";
-$lang["ticket_submission_message"] = "Your ticket has been submitted successfully!";
-$lang["your_email"] = "Your email";
-$lang["your_name"] = "Your name";
-
-$lang["item_categories"] = "Item categories";
-$lang["edit_items_category"] = "Edit items category";
-$lang["delete_items_category"] = "Delete items category";
-
-$lang["create_recurring_tasks_before"] = "Create recurring tasks before";
-$lang["create_new_order"] = "Create new order";
-$lang["find_more_items"] = "Find more items";
-
-/* Version 2.8 */
-
-$lang["reports"] = "Reports";
-
-$lang["yes_all_estimates"] = "Yes, all estimates";
-$lang["yes_only_own_estimates"] = "Yes, only own estimates";
-
-$lang["add_category"] = "Add category";
-$lang["edit_category"] = "Edit category";
-$lang["delete_category"] = "Delete category";
-
-$lang["proposal"] = "Proposal";
-$lang["proposals"] = "Proposals";
-$lang["can_access_proposals"] = "Can access proposals?";
-$lang["show_in_proposal"] = "Show in proposal";
-$lang["proposal_date"] = "Proposal date";
-$lang["edit_proposal"] = "Edit proposal";
-$lang["delete_proposal"] = "Delete proposal";
-$lang["proposal_sent_message"] = "The proposal has been sent!";
-$lang["add_proposal"] = "Add proposal";
-$lang["proposal_preview"] = "Proposal preview";
-$lang["clone_proposal"] = "Clone proposal";
-$lang["proposal_to"] = "Proposal to";
-$lang["proposal_settings"] = "Proposal settings";
-$lang["proposal_prefix"] = "Proposal prefix";
-$lang["proposal_color"] = "Proposal color";
-$lang["send_proposal_bcc_to"] = "When sending proposal to client, send BCC to";
-$lang["initial_number_of_the_proposal"] = "Initial number of the proposal";
-$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "The proposals ID must be larger then last proposal ID.";
-$lang["proposal_sent"] = "Proposal sent";
-$lang["notification_proposal_sent"] = "Sent a proposal";
-$lang["proposal_accepted"] = "Proposal accepted";
-$lang["notification_proposal_accepted"] = "Accepted a proposal";
-$lang["proposal_rejected"] = "Proposal rejected";
-$lang["notification_proposal_rejected"] = "Rejected a proposal";
-$lang["create_estimate"] = "Create Estimate";
-$lang["include_all_items_of_this_proposal"] = "Include all items of this proposal";
-$lang["proposal_view"] = "Proposal view";
-$lang["accept_proposal"] = "Accept proposal";
-$lang["reject_proposal"] = "Reject proposal";
-$lang["proposal_accepted_message"] = "You've successfully accepted this proposal!";
-
-$lang["set_timeline_permissions"] = "Set timeline permissions";
-$lang["cant_see_the_timeline"] = "Can't see the Timeline";
-$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "Can see timeline posts from specific members or teams:";
-
-$lang["localization"] = "Localization";
-$lang["localization_settings"] = "Localization Settings";
-$lang["main_task"] = "Main task";
-
-$lang["select_all"] = "Select all";
-$lang["unselect_all"] = "Unselect all";
-
-$lang["plugins"] = "Plugins";
-$lang["install_plugin"] = "Install plugin";
-$lang["please_upload_a_zip_file"] = "Please upload a zip file.";
-$lang["install"] = "Install";
-$lang["installed"] = "Installed";
-$lang["activate"] = "Activate";
-$lang["activated"] = "Activated";
-$lang["deactivate"] = "Deactivate";
-$lang["deactivated"] = "Deactivated";
-$lang["the_required_files_missing"] = "The required files missing.";
-$lang["this_plugin_is_already_installed"] = "This plugin is already installed.";
-$lang["version"] = "Version";
-$lang["by"] = "By";
-$lang["visit_plugin_site"] = "Visit plugin site";
-
-$lang["can_manage_team_members_job_information"] = "Can manage team member's job information?";
-
-$lang["add_filter"] = "Add filter";
-$lang["specific_client_groups"] = "Specific client groups";
-$lang["choose_client_groups"] = "Choose client groups";
-
-$lang["checklist_template"] = "Checklist Template";
-$lang["add_checklist_template"] = "Add checklist template";
-$lang["edit_checklist_template"] = "Edit checklist template";
-$lang["delete_checklist_template"] = "Delete checklist template";
-$lang["select_from_template"] = "Selct from template";
-$lang["type_new_item"] = "Type new item";
-
-$lang["conversion_rate"] = "Conversion rate";
-
-$lang["all_tasks"] = "All tasks";
-$lang["user_roles"] = "User Roles";
-$lang["edit_user_role"] = "Edit user role";
-
-$lang["total_leads"] = "Total leads";
-
-$lang["copy_link"] = "Copy link";
-$lang["copy_comment_link"] = "Copy comment link";
-
-$lang["pin_comment"] = "Pin comment";
-$lang["unpin_comment"] = "Unpin comment";
-$lang["pinned_comments"] = "Pinned comments";
-
-$lang["reply_from_this_comment"] = "Reply from this comment <br />";
-
-$lang["project_files"] = "Project files";
-$lang["edit_files"] = "Edit files";
-
-$lang["invoice_manual_payment_added"] = "Invoice manual payment added";
-$lang["notification_invoice_manual_payment_added"] = "Added a manual payment.";
-
-$lang["save_as_note"] = "Save as note";
-$lang["client_will_not_see_any_notes"] = "Client will not see any notes.";
-
-$lang["prospects"] = "Prospects";
-$lang["estimate_forms"] = "Estimate Forms";
-
-$lang["proposal_editor"] = "Proposal Editor";
-$lang["proposal_templates"] = "Proposal templates";
-$lang["add_proposal_template"] = "Add proposal template";
-$lang["edit_proposal_template"] = "Edit proposal template";
-$lang["delete_proposal_template"] = "Delete proposal template";
-$lang["use_template_from"] = "Use template from";
-$lang["print_proposal"] = "Print proposal";
-$lang["proposal_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
-
-$lang["default"] = "Default";
-
-$lang["encryption"] = "Encryption";
-$lang["imap_encryption_help_message"] = "Different server could work with different configuration. If you see any problem to connect with IMAP, please check with different options.";
-
-$lang["administration_permissions"] = "Administration permissions";
-$lang["can_manage_all_kinds_of_settings"] = "Can manage all kinds of settings";
-$lang["can_manage_user_role_and_permissions"] = "Can manage user role and permissions";
-$lang["can_add_or_invite_new_team_members"] = "Can add/invite new team members";
-
-$lang["add_signature_option_on_accepting_proposal"] = "Add signature option on accepting proposal";
-$lang["accept"] = "Accept";
-$lang["signer_info"] = "Signer info";
-$lang["default_template"] = "Default template";
-$lang["change_template"] = "Change template";
-$lang["this_variable_is_unsupported"] = "This variable is unsupported";
-
-$lang["plugin_deletion_alert_message"] = "All records and files also will be deleted!";
-$lang["plugin_requires_at_least_error_message"] = "This plugin requires at least %s version.";
-$lang["plugin_supports_at_most_error_message"] = "This plugin supports at most %s version.";
-$lang["no_update_hook_found"] = "No update hook found!";
-$lang["indexed"] = "Indexed";
-
-$lang["save_and_continue"] = "Save & continue";
-$lang["add_new_project_member"] = "Add new project member";
-
-$lang["field_type_time"] = "Time";
-$lang["client_can_assign_tasks"] = "Client can assign tasks?";
-$lang["can_create_lead_from_public_form"] = "Can create lead from public form";
-$lang["lead_html_form_code"] = "Lead creation HTML form code";
-
-$lang["enable_comments_on_estimates"] = "Enable comments on estimates";
-$lang["show_most_recent_estimate_comments_at_the_top"] = "Show most recent estimate comments at the top";
-$lang["estimate_commented"] = "Estimate commented";
-$lang["estimate_creator"] = "Estimate creator";
-$lang["notification_estimate_commented"] = "Commented on an estimate.";
-
-$lang["contacts_logged_in_today"] = "Contacts logged in today";
-$lang["contacts_logged_in_last_seven_days"] = "Contacts logged in last 7 days";
-
-$lang["clients_has_unpaid_invoices"] = "Clients has unpaid invoices";
-$lang["clients_has_partially_paid_invoices"] = "Clients has partially paid invoices";
-$lang["clients_has_overdue_invoices"] = "Clients has overdue invoices";
-
-$lang["of_total_clients"] = "of total clients";
-
-$lang["has_canceled_projects"] = "Has canceled projects";
-$lang["clients_has_open_projects"] = "Clients has open projects";
-$lang["clients_has_hold_projects"] = "Clients has hold projects";
-$lang["clients_has_completed_projects"] = "Clients has completed projects";
-$lang["clients_has_canceled_projects"] = "Clients has canceled projects";
-
-$lang["has_open_estimates"] = "Has open estimates";
-$lang["has_accepted_estimates"] = "Has accepted estimates";
-$lang["has_new_estimate_requests"] = "Has new estimate requests";
-$lang["has_estimate_requests_in_progress"] = "Has estimate requests in progress";
-$lang["clients_has_open_estimates"] = "Client has open estimates";
-$lang["clients_has_accepted_estimates"] = "Clients has accepted estimates";
-$lang["clients_has_new_estimate_requests"] = "Clients has new estimate requests";
-$lang["clients_has_estimate_requests_in_progress"] = "Clients has estimate requests in progress";
-
-$lang["has_open_tickets"] = "Has open tickets";
-$lang["clients_has_open_tickets"] = "Clients has open tickets";
-
-$lang["has_new_orders"] = "Has new orders";
-$lang["clients_has_new_orders"] = "Clients has new orders";
-
-$lang["has_open_proposals"] = "Has open proposals";
-$lang["has_accepted_proposals"] = "Has accepted proposals";
-$lang["has_rejected_proposals"] = "Has rejected proposals";
-$lang["clients_has_open_proposals"] = "Clients has open proposals";
-$lang["clients_has_accepted_proposals"] = "Clients has accepted proposals";
-$lang["clients_has_rejected_proposals"] = "Clients has rejected proposals";
-
-$lang["logged_in_today"] = "Logged in today";
-$lang["logged_in_last_seven_days"] = "Logged in last 7 days";
-
-$lang["hide_from_kanban_view"] = "Hide from kanban view";
+$lang["users_can_input_only_total_hours_instead_of_period"] = "کاربران می توانند فقط کل ساعت ها را به جای دوره وارد کنند";
+$lang["timesheet_hour_input_help_message"] = "مثلا: 1 ساعت و 20 دقیقه";
+
+$lang["template"] = "الگو";
+$lang["template_details"] = "جزئیات الگو";
+
+$lang["label_existing_error_message"] = "این برچسب در حال حاضر در حال استفاده است. نمی توان آن را حذف کرد.";
+
+/* نسخه 2.6 */
+
+$lang["paytm_checksum_hash_error_message"] = "نتوانستم Checksum Hash را با اعتبار شما ایجاد کنم.";
+
+$lang["testing_environment"] = "محیط تست";
+
+$lang["auto_reply_to_tickets"] = "پاسخ خودکار به بلیط ها";
+
+$lang["total_time_logged"] = "کل زمان ثبت شده";
+$lang["total_duration"] = "مدت کل";
+
+$lang["please_upload_valid_image_files"] = "لطفا فایل های تصویری معتبر را آپلود کنید.";
+$lang["upload_image"] = "آپلود تصویر";
+$lang["item_details"] = "جزئیات مورد";
+$lang["item_image_sorting_help_message"] = "تصویر اول تصویر پیش فرض خواهد بود.";
+$lang["show_in_client_portal"] = "نمایش در پورتال مشتری";
+$lang["showing_in_client_portal"] = "نمایش در پورتال مشتری";
+$lang["add_to_cart"] = "افزودن به سبد خرید";
+$lang["item_empty_message"] = "هیچ موردی یافت نشد!";
+
+$lang["order"] = "سفارش";
+$lang["orders"] = "سفارش ها";
+$lang["no_items_text"] = "شما هیچ کالایی در سبد خرید خرید!";
+$lang["process_order"] = "پردازش سفارش";
+$lang["place_order"] = "ثبت سفارش";
+$lang["edit_item"] = "ویرایش سفارش";
+$lang["store"] = "فروشگاه";
+$lang["client_can_access_store"] = "مشتری می تواند به فروشگاه دسترسی داشته باشد؟";
+$lang["added_to_cart"] = "به سبد خرید اضافه شد";
+$lang["can_access_orders"] = "آیا می توان به سفارشات دسترسی داشت؟";
+$lang["order_settings"] = "تنظیمات سفارش";
+$lang["order_logo"] = "لوگو سفارش";
+$lang["order_prefix"] = "پیشوند سفارش";
+$lang["order_color"] = "رنگ سفارش";
+$lang["initial_number_of_the_order"] = "شماره اولیه سفارش";
+$lang["the_orders_id_must_be_larger_then_last_order_id"] = "شناسه سفارش ها باید بزرگتر از شناسه آخرین سفارش باشد.";
+$lang["order_footer"] = "پابرگ سفارش";
+
+$lang["order_status"] = "وضعیت سفارش";
+$lang["edit_order_status"] = "ویرایش وضعیت سفارش";
+$lang["add_order_status"] = "اضافه کردن وضعیت سفارش";
+$lang["delete_order_status"] = "حذف وضعیت سفارش";
+$lang["there_has_orders_with_this_status"] = "سفارشاتی با این وضعیت وجود دارد";
+$lang["orders_list"] = "لیست سفارشات";
+$lang["sales"] = "فروشنده";
+$lang["order_date"] = "زمان سفارش";
+$lang["edit_order"] = "ویرایش سفارش";
+$lang["delete_order"] = "حذف سفارش";
+$lang["show_in_order"] = "نشان دادن سفارش";
+$lang["order_preview"] = "پیش نمایش سفارش";
+$lang["order_from"] = "فرم سفارش";
+$lang["add_order"] = "اضافه کردن سفارش";
+$lang["process_order_info_message"] = "شما در حال ایجاد سفارش هستید. لطفا قبل از ارسال، جزئیات را بررسی کنید.";
+
+$lang["order_creator_contact"] = "مخاطب سازنده سفارش";
+
+$lang["create_estimate"] = "ایجاد برآورد";
+$lang["include_all_items_of_this_order"] = "شامل تمام موارد این سفارش";
+
+$lang["new_order_received"] = "سفارش جدید دریافت شد";
+$lang["notification_new_order_received"] = "سفارش جدید دریافت شد.";
+
+$lang["order_status_updated"] = "وضعیت سفارش به روز شد";
+$lang["notification_order_status_updated"] = "وضعیت سفارش به روز شد.";
+
+$lang["add_more_items"] = "اقلام بیشتری اضافه کنید";
+
+$lang["yes_only_own_leads"] = "بله، فقط سرنخ‌های مالکیت";
+$lang["yes_all_leads"] = "بله، همه سرنخ ها";
+
+$lang["yes_only_own_clients"] = "بله، فقط مشتریان خود";
+$lang["yes_all_clients"] = "بله، همه مشتریان";
+
+$lang["recently_updated"] = "اخیرا به روز شده";
+$lang["recently_moved_to"] = "اخیراً به";
+
+$lang["recently_commented"] = "اخیراً نظر داده شده";
+$lang["mentioned_me"] = "از من نام برد";
+$lang["recently_mentioned_me"] = "اخیراً از من نام برد";
+$lang["in"] = "در";
+$lang["recently_meaning"] = "معنی اخیر";
+
+$lang["quick_filters"] = "فیلترهای سریع";
+
+$lang["has_open_projects"] = "پروژه های باز دارد";
+$lang["has_completed_projects"] = "پروژه ها را تکمیل کرده است";
+$lang["has_any_hold_projects"] = "پروژه های نگهداری دارد";
+
+$lang["has_unpaid_invoices"] = "فاکتورهای پرداخت نشده دارد";
+$lang["has_overdue_invoices"] = "فاکتورهای معوق دارد";
+$lang["has_partially_paid_invoices"] = "فاکتورهای جزئی پرداخت کرده است";
+$lang["assignee"] = "تخصیص گیرنده";
+
+$lang["upload_and_crop"] = "آپلود و برش";
+
+$lang["active_members_on_projects"] = "اعضای فعال در پروژه ها";
+
+/* نسخه 2.6.1 */
+
+$lang["open_tickets_list"] = "باز کردن لیست بلیط";
+
+$lang["login_attempt_failed"] = "تلاش برای ورود ناموفق بود";
+$lang["profile_image_error_message"] = "تصویر باید 200x200 پیکسل باشد.";
+
+$lang["re_captcha_info_text"] = "قبل از خروج، لطفاً یک مرورگر جدید باز کنید و مطمئن شوید که reCaptcha کار می کند.";
+$lang["yes_assigned_tickets_only"] = "بله، فقط بلیط های اختصاص داده شده";
+$lang["no_such_custom_field_found"] = "هیچ فیلد سفارشی یافت نشد.";
+$lang["open_in_google_calendar"] = "باز کردن در تقویم گوگل";
+
+$lang["enable_embedded_form_to_get_tickets"] = "فرم تعبیه شده را برای دریافت بلیط فعال کنید";
+$lang["submit_your_request"] = "درخواست خود را ارسال کنید";
+$lang["submit"] = "ارسال";
+$lang["ticket_submission_message"] = "بلیت شما با موفقیت ارسال شد!";
+$lang["your_email"] = "ایمیل شما";
+$lang["your_name"] = "نام شما";
+
+$lang["item_categories"] = "دسته بندی های مورد";
+$lang["edit_items_category"] = "ویرایش دسته بندی های مورد";
+$lang["delete_items_category"] = "حذف دسته بندی های مورد";
+
+$lang["create_recurring_tasks_before"] = "قبل از انجام کارهای تکراری";
+$lang["create_new_order"] = "ایجاد سفارش جدید";
+$lang["find_more_items"] = "موارد بیشتری را بیابید";
+
+/* نسخه 2.8 */
+
+$lang["reports"] = "گزارش ها";
+
+$lang["yes_all_estimates"] = "بله، همه برآوردها";
+$lang["yes_only_own_estimates"] = "بله، فقط برآوردهای شخصی";
+
+$lang["add_category"] = "دسته بندی افزودن";
+$lang["edit_category"] = "ویرایش دسته بندی";
+$lang["delete_category"] = "حذف دسته بندی";
+
+$lang["proposal"] = "پیشنهاد";
+$lang["proposals"] = "پیشنهادها";
+$lang["can_access_proposals"] = "آیا می توان به پیشنهادات دسترسی داشت؟";
+$lang["show_in_proposal"] = "نمایش در پروپوزال";
+$lang["proposal_date"] = "تاریخ پیشنهاد";
+$lang["edit_proposal"] = "ویرایش پیشنهاد";
+$lang["delete_proposal"] = "حذف پیشنهاد";
+$lang["proposal_sent_message"] = "پیشنهاد ارسال شد!";
+$lang["add_proposal"] = "افزودن پیشنهاد";
+$lang["proposal_preview"] = "پیش نمایش پیشنهاد";
+$lang["clone_proposal"] = "پیشنهاد کلون";
+$lang["proposal_to"] = "پیشنهاد به";
+$lang["proposal_settings"] = "تنظیمات پیشنهاد";
+$lang["proposal_prefix"] = "پیشوند پیشنهاد";
+$lang["proposal_color"] = "رنگ پیشنهادی";
+$lang["send_proposal_bcc_to"] = "هنگام ارسال پروپوزال به مشتری، BCC را به";
+$lang["initial_number_of_the_proposal"] = "شماره اولیه پیشنهاد";
+$lang["the_proposals_id_must_be_larger_then_last_proposal_id"] = "ID پروپوزال باید بزرگتر از آخرین شناسه پیشنهاد باشد.";
+$lang["proposal_sent"] = "پیشنهاد ارسال شد";
+$lang["notification_proposal_sent"] = "یک پیشنهاد ارسال کرد";
+$lang["proposal_accepted"] = "پیشنهاد پذیرفته شد";
+$lang["notification_proposal_accepted"] = "پیشنهاد پذیرفته شد";
+$lang["proposal_rejected"] = "پیشنهاد رد شد";
+$lang["notification_proposal_rejected"] = "یک پیشنهاد را رد کرد";
+$lang["create_estimate"] = "ایجاد برآورد";
+$lang["include_all_items_of_this_proposal"] = "شامل تمام موارد این پیشنهاد";
+$lang["proposal_view"] = "نمای پیشنهاد";
+$lang["accept_proposal"] = "قبول پیشنهاد";
+$lang["reject_proposal"] = "رد پیشنهاد";
+$lang["proposal_accepted_message"] = "شما این پیشنهاد را با موفقیت پذیرفتید!";
+
+$lang["set_timeline_permissions"] = "تنظیم مجوزهای خط زمانی";
+$lang["cant_see_the_timeline"] = "نمی توانم جدول زمانی را ببینم";
+$lang["can_see_timeline_posts_from_specific_members_or_teams"] = "می توان پست های جدول زمانی را از اعضا یا تیم های خاص مشاهده کرد:";
+
+$lang["localization"] = "شخصی سازی";
+$lang["localization_settings"] = "تنظیمات محلی سازی";
+$lang["main_task"] = "وظیفه اصلی";
+
+$lang["select_all"] = "انتخاب همه";
+$lang["unselect_all"] = "لغو انتخاب همه";
+
+$lang["plugins"] = "افزونه ها";
+$lang["install_plugin"] = "نصب افزونه";
+$lang["please_upload_a_zip_file"] = "لطفا یک فایل فشرده آپلود کنید.";
+$lang["install"] = "نصب";
+$lang["installed"] = "نصب شده";
+$lang["activate"] = "فعال کردن";
+$lang["activated"] = "فعال شده";
+$lang["deactivate"] = "غیرفعال کردن";
+$lang["deactivated"] = "غیرفعال شده";
+$lang["the_required_files_missing"] = "فایل های مورد نیاز وجود ندارد.";
+$lang["this_plugin_is_already_installed"] = "این افزونه قبلاً نصب شده است.";
+$lang["version"] = "نسخه";
+$lang["by"] = "توسط";
+$lang["visit_plugin_site"] = "بازدید از سایت افزونه";
+
+$lang["can_manage_team_members_job_information"] = "آیا می توانید اطلاعات شغلی اعضای تیم را مدیریت کنید؟";
+
+$lang["add_filter"] = "افزودن فیلتر";
+$lang["specific_client_groups"] = "گروه های مشتری خاص";
+$lang["choose_client_groups"] = "گروه های مشتری را انتخاب کنید";
+
+$lang["checklist_template"] = "الگوی چک لیست";
+$lang["add_checklist_template"] = "افزودن قالب چک لیست";
+$lang["edit_checklist_template"] = "ویرایش الگوی چک لیست";
+$lang["delete_checklist_template"] = "حذف الگوی چک لیست";
+$lang["select_from_template"] = "انتخاب از الگو";
+$lang["type_new_item"] = "مورد جدید را تایپ کنید";
+
+$lang["conversion_rate"] = "نرخ تبدیل";
+
+$lang["all_tasks"] = "همه وظایف";
+$lang["user_roles"] = "نقش های کاربر";
+$lang["edit_user_role"] = "ویرایش نقش کاربر";
+
+$lang["total_leads"] = "کل سرنخ";
+
+$lang["copy_link"] = "کپی پیوند";
+$lang["copy_comment_link"] = "کپی لینک نظر";
+
+$lang["pin_comment"] = "پین کردن نظر";
+$lang["unpin_comment"] = "باز کردن سنجاق نظر";
+$lang["pinned_comments"] = "نظرات پین شده";
+
+$lang["reply_from_this_comment"] = "پاسخ از این نظر <br />";
+
+$lang["project_files"] = "فایل های پروژه";
+$lang["edit_files"] = "ویرایش فایلها";
+
+$lang["invoice_manual_payment_added"] = "پرداخت دستی فاکتور اضافه شد";
+$lang["notification_invoice_manual_payment_added"] = "پرداخت دستی اضافه شد.";
+
+$lang["save_as_note"] = "ذخیره به عنوان یادداشت";
+$lang["client_will_not_see_any_notes"] = "مشتری هیچ یادداشتی را نخواهد دید.";
+
+$lang["prospects"] = "چشم انداز";
+$lang["estimate_forms"] = "تخمین فرم ها";
+
+$lang["proposal_editor"] = "ویرایشگر پیشنهاد";
+$lang["proposal_templates"] = "الگوهای پیشنهادی";
+$lang["add_proposal_template"] = "اضافه کردن الگوی پیشنهاد";
+$lang["edit_proposal_template"] = "ویرایش الگوی پیشنهاد";
+$lang["delete_proposal_template"] = "حذف الگوی پیشنهاد";
+$lang["use_template_from"] = "استفاده از الگو از";
+$lang["print_proposal"] = "چاپ پیشنهاد";
+$lang["proposal_template_inserting_instruction"] = "با درج یک الگو، همه تغییرات ذخیره نشده را از دست خواهید داد.";
+
+$lang["default"] = "پیش فرض";
+
+$lang["encryption"] = "رمزگذاری";
+$lang["imap_encryption_help_message"] = "سرورهای مختلف می‌توانند با پیکربندی‌های مختلف کار کنند. اگر مشکلی برای اتصال با IMAP مشاهده کردید، لطفاً گزینه‌های مختلف را بررسی کنید.";
+
+$lang["administration_permissions"] = "مجوزهای مدیریت";
+$lang["can_manage_all_kinds_of_settings"] = "می تواند انواع تنظیمات را مدیریت کند";
+$lang["can_manage_user_role_and_permissions"] = "توانایی مدیریت نقش و مجوزهای کاربر";
+$lang["can_add_or_invite_new_team_members"] = "می توان اعضای جدید تیم را اضافه/دعوت کرد";
+
+$lang["add_signature_option_on_accepting_proposal"] = "اضافه کردن گزینه امضا در پذیرش پیشنهاد";
+$lang["accept"] = "قبول";
+$lang["signer_info"] = "اطلاعات امضاکننده";
+$lang["default_template"] = "الگوی پیش فرض";
+$lang["change_template"] = "تغییر الگو";
+$lang["this_variable_is_unsupported"] = "این متغیر پشتیبانی نمی شود";
+
+$lang["plugin_deletion_alert_message"] = "همه رکوردها و فایل ها نیز حذف خواهند شد!";
+$lang["plugin_requires_at_least_error_message"] = "این افزونه به حداقل %s نسخه نیاز دارد.";
+$lang["plugin_supports_at_most_error_message"] = "این افزونه حداکثر %s نسخه را پشتیبانی می کند.";
+$lang["no_update_hook_found"] = "قلاب به روز رسانی پیدا نشد!";
+$lang["indexed"] = "نمایه شده";
+
+$lang["save_and_continue"] = "ذخیره و ادامه";
+$lang["add_new_project_member"] = "افزودن عضو جدید پروژه";
+
+$lang["field_type_time"] = "زمان";
+$lang["client_can_assign_tasks"] = "کارفرما می تواند وظایفی را تعیین کند؟";
+$lang["can_create_lead_from_public_form"] = "قابلیت ایجاد سرنخ از فرم عمومی";
+$lang["lead_html_form_code"] = "کد فرم HTML ایجاد سرنخ";
+
+$lang["enable_comments_on_estimates"] = "فعال کردن نظرات در مورد برآوردها";
+$lang["show_most_recent_estimate_comments_at_the_top"] = "نمایش آخرین نظرات تخمینی در بالا";
+$lang["estimate_commented"] = "تخمین نظر داده شده";
+$lang["estimate_creator"] = "تخمین سازندگان";
+$lang["notification_estimate_commented"] = "در مورد یک تخمین نظر داد.";
+
+$lang["contacts_logged_in_today"] = "مخاطبین وارد شده امروز";
+$lang["contacts_logged_in_last_seven_days"] = "مخاطبین ثبت شده در 7 روز گذشته";
+
+$lang["clients_has_unpaid_invoices"] = "مشتریان فاکتورهای پرداخت نشده دارند";
+$lang["clients_has_partially_paid_invoices"] = "مشتریان تا حدی فاکتورها را پرداخت کرده اند";
+$lang["clients_has_overdue_invoices"] = "کاربران فاکتورهای معوق دارند";
+
+$lang["of_total_clients"] = "از کل مشتریان";
+
+$lang["has_cancelled_projects"] = "پروژه های لغو شده";
+$lang["clients_has_open_projects"] = "مشتریان پروژه های باز دارند";
+$lang["clients_has_hold_projects"] = "مشتریان پروژه های نگهداری دارند";
+$lang["clients_has_completed_projects"] = "مشتریان پروژه ها را تکمیل کرده اند";
+$lang["clients_has_canceled_projects"] = "مشتریان پروژه ها را لغو کرده اند";
+
+$lang["has_open_estimates"] = "برآوردهای باز دارد";
+$lang["has_accepted_estimates"] = "تخمین پذیرفته شده است";
+$lang["has_new_estimate_requests"] = "درخواستهای تخمینی جدید دارد";
+$lang["has_estimate_requests_in_progress"] = "تقاضای تخمینی در حال انجام است";
+$lang["clients_has_open_estimates"] = "کارفرما برآوردهای باز دارد";
+$lang["clients_has_accepted_estimates"] = "مشتریان برآوردها را پذیرفته اند";
+$lang["clients_has_new_estimate_requests"] = "مشتریان درخواستهای برآورد جدیدی دارند";
+$lang["clients_has_estimate_requests_in_progress"] = "کاربران درخواست های تخمینی در دست انجام دارند";
+
+$lang["has_open_tickets"] = "بلیت باز دارد";
+$lang["clients_has_open_tickets"] = "مشتریان بلیط باز دارند";
+
+$lang["has_new_orders"] = "سفارشات جدید دارد";
+$lang["clients_has_new_orders"] = "مشتریان سفارشات جدیدی دارند";
+
+$lang["has_open_proposals"] = "پیشنهادهای باز دارد";
+$lang["has_accepted_proposals"] = "پیشنهادات را پذیرفته است";
+$lang["has_rejected_proposals"] = "پیشنهادات را رد کرده است";
+$lang["clients_has_open_proposals"] = "مشتریان پیشنهادات باز دارند";
+$lang["clients_has_accepted_proposals"] = "مشتریان پیشنهادات خود را پذیرفته اند";
+$lang["clients_has_rejected_proposals"] = "مشتریان پیشنهادات خود را رد کرده اند";
+
+$lang["logged_in_today"] = "امروز وارد سیستم شدم";
+$lang["logged_in_last_seven_days"] = "در 7 روز گذشته وارد شده‌اید";
+
+$lang["hide_from_kanban_view"] = "پنهان شدن از نمای kanban";
 
 /* Version 2.9 */
 
-$lang["contract"] = "Contract";
-$lang["contracts"] = "Contracts";
-$lang["can_access_contracts"] = "Can access contracts?";
-$lang["show_in_contract"] = "Show in contract";
-$lang["contract_date"] = "Contract date";
-$lang["edit_contract"] = "Edit contract";
-$lang["delete_contract"] = "Delete contract";
-$lang["contract_sent_message"] = "The contract has been sent!";
-$lang["add_contract"] = "Add contract";
-$lang["contract_preview"] = "Contract preview";
-$lang["clone_contract"] = "Clone contract";
-$lang["contract_to"] = "Contract to";
-$lang["contract_settings"] = "Contract settings";
-$lang["contract_color"] = "Contract color";
-$lang["send_contract_bcc_to"] = "When sending contract to client, send BCC to";
-$lang["initial_number_of_the_contract"] = "Initial number of the contract";
-$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "The contracts ID must be larger then last contract ID.";
-$lang["contract_sent"] = "Contract sent";
-$lang["notification_contract_sent"] = "Sent a contract";
-$lang["contract_accepted"] = "Contract accepted";
-$lang["notification_contract_accepted"] = "Accepted a contract";
-$lang["contract_rejected"] = "Contract rejected";
-$lang["notification_contract_rejected"] = "Rejected a contract";
-$lang["create_estimate"] = "Create Estimate";
-$lang["include_all_items_of_this_contract"] = "Include all items of this contract";
-$lang["contract_view"] = "Contract view";
-$lang["accept_contract"] = "Accept contract";
-$lang["reject_contract"] = "Reject contract";
-$lang["contract_accepted_message"] = "You've successfully accepted this contract!";
+$lang["contract"] = "قرارداد";
+$lang["contracts"] = "قراردادها";
+$lang["can_access_contracts"] = "آیا می توان به قراردادها دسترسی داشت؟";
+$lang["show_in_contract"] = "نمایش در قرارداد";
+$lang["contract_date"] = "تاریخ قرارداد";
+$lang["edit_contract"] = "ویرایش قرارداد";
+$lang["delete_contract"] = "حذف قرارداد";
+$lang["contract_sent_message"] = "قرارداد ارسال شد!";
+$lang["add_contract"] = "اضافه کردن قرارداد";
+$lang["contract_preview"] = "پیش نمایش قرارداد";
+$lang["clone_contract"] = "قرارداد کلون";
+$lang["contract_to"] = "قرارداد به";
+$lang["contract_settings"] = "تنظیمات قرارداد";
+$lang["contract_color"] = "رنگ قرارداد";
+$lang["send_contract_bcc_to"] = "هنگام ارسال قرارداد برای مشتری، BCC را به";
+$lang["initial_number_of_the_contract"] = "شماره اولیه قرارداد";
+$lang["the_contracts_id_must_be_larger_then_last_contract_id"] = "شناسه قراردادها باید بزرگتر از آخرین شناسه قرارداد باشد.";
+$lang["contract_sent"] = "قرارداد ارسال شد";
+$lang["notification_contract_sent"] = "ارسال قرارداد";
+$lang["contract_accepted"] = "قرارداد پذیرفته شد";
+$lang["notification_contract_accepted"] = "قرارداد را پذیرفت";
+$lang["contract_rejected"] = "قرارداد رد شد";
+$lang["notification_contract_rejected"] = "یک قرارداد را رد کرد";
+$lang["create_estimate"] = "ایجاد برآورد";
+$lang["include_all_items_of_this_contract"] = "شامل تمام موارد این قرارداد";
+$lang["contract_view"] = "نمایش قرارداد";
+$lang["accept_contract"] = "قبول قرارداد";
+$lang["reject_contract"] = "رد قرارداد";
+$lang["contract_accepted_message"] = "شما با موفقیت این قرارداد را پذیرفتید!";
 
-$lang["contract_editor"] = "Contract Editor";
-$lang["contract_templates"] = "Contract templates";
-$lang["add_contract_template"] = "Add contract template";
-$lang["edit_contract_template"] = "Edit contract template";
-$lang["delete_contract_template"] = "Delete contract template";
-$lang["use_template_from"] = "Use template from";
-$lang["print_contract"] = "Print contract";
-$lang["contract_template_inserting_instruction"] = "You'll lost all unsaved changes by inserting a template.";
+$lang["contract_editor"] = "ویرایشگر قرارداد";
+$lang["contract_templates"] = "الگوهای قرارداد";
+$lang["add_contract_template"] = "اضافه کردن الگوی قرارداد";
+$lang["edit_contract_template"] = "ویرایش الگوی قرارداد";
+$lang["delete_contract_template"] = "حذف الگوی قرارداد";
+$lang["use_template_from"] = "استفاده از الگو از";
+$lang["print_contract"] = "چاپ قرارداد";
+$lang["contract_template_inserting_instruction"] = "با درج یک الگو، همه تغییرات ذخیره نشده را از دست خواهید داد.";
+$lang["ticket_info"] = "اطلاعات بلیط";
 
-$lang["ticket_info"] = "Ticket info";
+$lang["recurring_tasks"] = "کارهای تکرارشونده";
+$lang["add_multiple_contacts"] = "افزودن چندین مخاطب";
 
-$lang["recurring_tasks"] = "Recurring tasks";
-$lang["add_multiple_contacts"] = "Add multiple contacts";
+$lang["total_invoiced"] = "کل صورتحساب";
 
-$lang["total_invoiced"] = "Total invoiced";
+$lang["show_sub_tasks"] = "نمایش وظایف فرعی";
 
-$lang["show_sub_tasks"] = "Show sub tasks";
+$lang["add_signature_option_on_accepting_estimate"] = "افزودن گزینه امضا در پذیرش برآورد";
+$lang["accept_estimate"] = "قبول برآورد";
 
-$lang["add_signature_option_on_accepting_estimate"] = "Add signature option on accepting estimate";
-$lang["accept_estimate"] = "Accept estimate";
+$lang["sub_tasks_completed"] = "وظایف فرعی تکمیل شد";
 
-$lang["sub_tasks_completed"] = "Sub tasks completed";
+$lang["client_portal"] = "پورتال مشتریان";
+$lang["sales_and_prospects"] = "فروش ها و چشم انداز ها";
 
-$lang["client_portal"] = "Client portal";
-$lang["sales_and_prospects"] = "Sales & Prospects";
+$lang["contract_prefix"] = "پیشوند قرارداد";
+$lang["default_contract_template"] = "الگوی قرارداد پیش فرض";
 
-$lang["contract_prefix"] = "Contract prefix";
-$lang["default_contract_template"] = "Default contract template";
+$lang["default_proposal_template"] = "الگوی پیش فرض پیشنهاد";
 
-$lang["default_proposal_template"] = "Default proposal template";
+$lang["signed_date"] = "تاریخ امضاء";
 
-$lang["signed_date"] = "Signed date";
-
-$lang["add_signature_option_on_accepting_contract"] = "Add signature option on accepting contract";
-$lang["accept"] = "Accept";
-$lang["signer_info"] = "Signer info";
-$lang["default_template"] = "Default template";
-$lang["change_template"] = "Change template";
-
+$lang["add_signature_option_on_accepting_contract"] = "افزودن گزینه امضا در پذیرش قرارداد";
+$lang["accept"] = "قبول";
+$lang["signer_info"] = "اطلاعات امضاکننده";
+$lang["default_template"] = "الگوی پیش فرض";
+$lang["change_template"] = "تغییر الگو";
 return $lang;
